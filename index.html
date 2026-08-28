@@ -8,27 +8,28 @@
   
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
+  <main class="main-container">
+    <svg 
+      class="profile-pictures"
+      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+      <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+    </svg>
+    <div class="user-info">
+      <h1 class="user-name">mohsin</h1>
+      <span class="user-location">Madrid, Spain</span>
+      <p class="user-description">"consistency is the name of the game"</p>
+    </div>
+    <div class="social-links-container">
+      <a class="social-link" href="https://github.com/mohsintahiri/">GitHub</a>
+      <a class="social-link" href="https://www.frontendmentor.io/profile/mohsintahiri">Frontend Mentor</a>
+      <a class="social-link" href="#">LinkedIn</a>
+      <a class="social-link" href="#">Twitter</a>
+      <a class="social-link" href="#">Instagram</a>
+    </div>
+  </main>
 </body>
 </html>
